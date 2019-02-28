@@ -1,0 +1,7 @@
+.navbar {
+  width: 100%;
+  align-items: baseline !important;
+}
+.borderless{
+  border: none !important;
+}
