@@ -5,3 +5,20 @@
 .borderless{
   border: none !important;
 }
+.borderless img{
+  margin-bottom: 0px;
+}
+.cart-icon {
+  color: var(--yellow);
+  cursor: pointer;
+}
+.default-background {
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
