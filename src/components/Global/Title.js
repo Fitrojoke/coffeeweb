@@ -1,7 +1,7 @@
 import React from "react"
 
-export default function Title ({ title }) {
+export default function Title ({ title, classing }) {
   return ( 
-        <h3>{title}</h3>
+        <h3 className={classing}>{title}</h3>
   );
 }

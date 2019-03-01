@@ -28,7 +28,9 @@ ul.nav  {
   background-color: var(--yellow);
   color: var(--white) !important;
 }
-
+.menu {
+  background-color: #607D8B;
+}
 .default-background, .about-background {
   min-height: 100vh;
   justify-content: center;
