@@ -40,7 +40,7 @@ export default class Navbar extends Component {
       <div className="navbar bg-light navbar-light">
       <Link to="/">
         <div>
-          <button className="navbar-toggler borderless" type="button" onClick={this.navBarHandler}>
+          <button className="borderless" type="button" onClick={this.navBarHandler}>
             <img src={logo} alt="Caffee" />
           </button>
         </div>
@@ -57,7 +57,7 @@ export default class Navbar extends Component {
             }
           </ul>
         </div>
-        <FaCartArrowDown style={{height: '1.5rem', width: '1.5rem'}}/>
+        <FaCartArrowDown className="cart-icon" style={{height: '1.5rem', width: '1.5rem'}}/>
       </div>
     )
   }

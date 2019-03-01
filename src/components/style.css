@@ -1,18 +1,35 @@
 .navbar {
   width: 100%;
-  align-items: baseline !important;
+  align-items: center !important;
 }
 .borderless{
   border: none !important;
+  background-color: transparent;
 }
 .borderless img{
+  margin-bottom: 0px;
+  padding: 0px;
+}
+ul.nav  {
+  margin-left: 0px;
+}
+.nav li {
   margin-bottom: 0px;
 }
 .cart-icon {
   color: var(--yellow);
   cursor: pointer;
 }
-.default-background {
+.btn-yellow {
+  color: var(--yellow) !important;
+  border-color: var(--yellow) !important;
+}
+.btn-yellow:hover {
+  background-color: var(--yellow);
+  color: var(--white) !important;
+}
+
+.default-background, .about-background {
   min-height: 100vh;
   justify-content: center;
   display: flex;
@@ -21,4 +38,17 @@
   background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
   background-repeat: no-repeat;
   background-size: cover;
+}
+.navigator {
+  padding: 0.5rem 0;
+}
+.navigator svg {
+  margin: 0rem 1rem;
+}
+
+footer {
+  background-color: var(--yellow);
+}
+footer h3 {
+  margin-bottom: 0px;
 }
