@@ -31,6 +31,9 @@ ul.nav  {
 .menu {
   background-color: #607D8B;
 }
+.contact {
+  background-color: var(--yellow);
+}
 .default-background, .about-background {
   min-height: 100vh;
   justify-content: center;
@@ -46,6 +49,9 @@ ul.nav  {
 }
 .navigator svg {
   margin: 0rem 1rem;
+}
+.v-middle {
+  align-items: baseline;
 }
 
 footer {

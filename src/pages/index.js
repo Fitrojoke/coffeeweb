@@ -8,6 +8,7 @@ import BackgroundSection from "../components/Global/BackgroundSection"
 import Info from "../components/Home/Info"
 import Menu from "../components/Home/Menu"
 import Products from "../components/Home/Products"
+import Contact from "../components/Home/Contact"
 
 const IndexPage = ({data}) => (
   <Layout>
@@ -15,8 +16,11 @@ const IndexPage = ({data}) => (
     <BackgroundSection img={data.img.childImageSharp.fluid} title="Regular" className="default-background" />
     <Info />
     <Menu items={data.menu}/>
-    <div className="text-center navigator"><Link to="/page-2/">Go to page 2<FaTrain /></Link></div>
     <Products />
+    <Contact />
+    
+    <div className="text-center navigator"><Link to="/page-2/">Go to page 2<FaTrain /></Link></div>
+
   </Layout>
 )
 
@@ -44,20 +48,6 @@ export const query = graphql`
         }
         menuprice
         menucategory
-      }
-    }
-  }
-  product: allContentfulCoffeeproduct {
-    edges {
-      node {
-        id
-        productitle
-        productprice
-        productimg {
-          fluid(maxWidth:400){
-          	...GatsbyContentfulFluid_tracedSVG
-        	}
-        }
       }
     }
   }
