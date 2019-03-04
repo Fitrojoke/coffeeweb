@@ -60,3 +60,6 @@ footer {
 footer h3 {
   margin-bottom: 0px;
 }
+.snip-footer a {
+  visibility: hidden;
+}

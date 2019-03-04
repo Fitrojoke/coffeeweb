@@ -8,7 +8,7 @@ export default function Contact () {
             <div className="row">
               <div className="col-10 col-sm-8 mx-auto text-center p-5">
                 <Title title="Contact" />
-                <form>
+                <form method="POST" action="https://formspree.io/code@nada.ltd" target="_blank">
                   <div className="form-group d-flex v-middle">
                     <label htmlFor="name">Name</label>
                     <input type="name" name="name"  className="form-control ml-5" id="name" placeholder="Jon Smith" />

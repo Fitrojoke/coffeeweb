@@ -57,7 +57,7 @@ export default class Navbar extends Component {
             }
           </ul>
         </div>
-        <FaCartArrowDown className="cart-icon" style={{height: '1.5rem', width: '1.5rem'}}/>
+        <FaCartArrowDown className="cart-icon snipcart-checkout" style={{height: '1.5rem', width: '1.5rem'}}/>
       </div>
     )
   }
